@@ -47,6 +47,3 @@
 <img width="100%" src="./assets/status-panel.svg" alt="system status panel"/>
 </div>
 
-<div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:1a1a1a,100:000000&height=130&section=footer&text=CONNECTION%20NOT%20TERMINATED&fontSize=18&fontColor=FFFFFF&animation=fadeIn"/>
-</div>
