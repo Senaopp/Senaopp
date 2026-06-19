@@ -28,9 +28,9 @@
 <div align="center">
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=MIzeri&show_icons=true&hide_border=false&border_color=FFFFFF&bg_color=0A0A0A&title_color=FFFFFF&icon_color=AAAAAA&text_color=D8D8D8&rank_icon=github"/>
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MIzeri&layout=compact&hide_border=false&border_color=FFFFFF&bg_color=0A0A0A&title_color=FFFFFF&text_color=D8D8D8"/>
-
 <img width="49%" src="https://streak-stats.demolab.com?user=MIzeri&hide_border=false&border=FFFFFF&background=0A0A0A&ring=FFFFFF&fire=AAAAAA&currStreakLabel=FFFFFF&sideLabels=D8D8D8&dates=7A7A7A"/>
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MIzeri&layout=compact&hide_border=false&border_color=FFFFFF&bg_color=0A0A0A&title_color=FFFFFF&text_color=D8D8D8"/>
 <a href="https://discord.com/users/699923331671130182"><img width="49%" src="https://lanyard.cnrad.dev/api/699923331671130182?theme=dark&bg=0a0a0a&borderRadius=12px&animated=true&hideDiscrim=true"/></a>
 
 </div>
