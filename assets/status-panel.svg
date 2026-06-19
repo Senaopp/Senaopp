@@ -1,0 +1,35 @@
+<svg width="900" height="90" viewBox="0 0 900 90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#111111"/>
+      <stop offset="100%" style="stop-color:#0d0d0d"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="90" fill="url(#bg5)" rx="12"/>
+  <rect width="900" height="90" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1" rx="12"/>
+
+  <!-- Three status blocks -->
+
+  <!-- Block 1: STATUS -->
+  <rect x="20" y="18" width="260" height="54" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <circle cx="44" cy="45" r="5" fill="#4ade80"/>
+  <circle cx="44" cy="45" r="5" fill="#4ade80" opacity="0.3">
+    <animate attributeName="r" values="5;9;5" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="58" y="40" font-family="'Courier New', monospace" font-size="10" fill="rgba(255,255,255,0.3)" letter-spacing="2">STATUS</text>
+  <text x="58" y="57" font-family="'Courier New', monospace" font-size="14" fill="#ffffff" font-weight="600" letter-spacing="1">ONLINE</text>
+
+  <!-- Block 2: SIGNAL -->
+  <rect x="320" y="18" width="260" height="54" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <circle cx="344" cy="45" r="5" fill="#facc15"/>
+  <text x="358" y="40" font-family="'Courier New', monospace" font-size="10" fill="rgba(255,255,255,0.3)" letter-spacing="2">SIGNAL</text>
+  <text x="358" y="57" font-family="'Courier New', monospace" font-size="14" fill="#ffffff" font-weight="600" letter-spacing="1">UNSTABLE</text>
+
+  <!-- Block 3: CORE -->
+  <rect x="620" y="18" width="260" height="54" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <circle cx="644" cy="45" r="5" fill="rgba(255,255,255,0.4)"/>
+  <text x="658" y="40" font-family="'Courier New', monospace" font-size="10" fill="rgba(255,255,255,0.3)" letter-spacing="2">CORE</text>
+  <text x="658" y="57" font-family="'Courier New', monospace" font-size="14" fill="#ffffff" font-weight="600" letter-spacing="1">BACKEND</text>
+</svg>

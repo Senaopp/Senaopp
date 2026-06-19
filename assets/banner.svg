@@ -1,0 +1,51 @@
+<svg width="900" height="120" viewBox="0 0 900 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="50%" style="stop-color:#111111"/>
+      <stop offset="100%" style="stop-color:#0a0a0a"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="blur-bg">
+      <feGaussianBlur stdDeviation="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="120" fill="url(#bg)" rx="12"/>
+
+  <!-- Subtle border -->
+  <rect width="900" height="120" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1" rx="12"/>
+
+  <!-- Decorative lines left -->
+  <line x1="32" y1="20" x2="32" y2="100" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <line x1="40" y1="35" x2="40" y2="85" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+
+  <!-- Decorative lines right -->
+  <line x1="868" y1="20" x2="868" y2="100" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <line x1="860" y1="35" x2="860" y2="85" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+
+  <!-- Corner dots -->
+  <circle cx="20" cy="20" r="2" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="880" cy="20" r="2" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="20" cy="100" r="2" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="880" cy="100" r="2" fill="rgba(255,255,255,0.15)"/>
+
+  <!-- Status dot -->
+  <circle cx="370" cy="60" r="4" fill="#4ade80" filter="url(#glow)"/>
+  <circle cx="370" cy="60" r="4" fill="#4ade80" opacity="0.3">
+    <animate attributeName="r" values="4;8;4" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Main text -->
+  <text x="450" y="52" font-family="'Courier New', monospace" font-size="11" fill="rgba(255,255,255,0.35)" text-anchor="middle" letter-spacing="4">ROOT ACCESS GRANTED</text>
+  <text x="450" y="72" font-family="'Courier New', monospace" font-size="28" fill="#ffffff" text-anchor="middle" font-weight="700" letter-spacing="12" filter="url(#glow)">M I Z E R I</text>
+  <text x="450" y="92" font-family="'Courier New', monospace" font-size="10" fill="rgba(255,255,255,0.25)" text-anchor="middle" letter-spacing="6">BACKEND_CORE // SYSTEM ONLINE</text>
+
+  <!-- Scan line effect -->
+  <rect width="900" height="1" y="60" fill="rgba(255,255,255,0.02)"/>
+</svg>
